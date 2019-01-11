@@ -1,0 +1,31 @@
+{
+  "name": "magmer-server",
+  "version": "1.0.0",
+  "description": "Static server for magmer project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/bulian1311/magmer-server.git"
+  },
+  "keywords": [
+    "magmer"
+  ],
+  "author": "Nikolay Kachanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/bulian1311/magmer-server/issues"
+  },
+  "homepage": "https://gitlab.com/bulian1311/magmer-server#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "koa": "^2.6.2",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
